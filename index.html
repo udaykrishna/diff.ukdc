@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKDC - diff editor</title>
+  </head>
+  <body>
+    <div id="diff-app"></div>
+    <div class="bottombar">
+      <span class="flex item spacer"></span>
+      <span class="flex item language-selector">
+        <label for="langSelector">Language</label >
+        <select id="langSelector">
+        </select>
+      </span>
+      <span class="flex item theme-selector">
+        <label for="theme">theme</label >
+          <select id="themeSelector">
+            <option value="vs-dark">dark</option>
+            <option value="vs">light</option>
+          </select>
+      </span>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+
+.flex{
+  display: flex;
+}
+
+#diff-app {
+  display: block;
+  width: 100vw;
+  height: 95vw;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.bottombar {
+  width: 100vw;
+  background-color: blue;
+  color: white;
+  bottom: 0px;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+}
+
+.language-selector {
+  align-content: right;
+}
+
+.flex.spacer{
+  flex-grow: 1;
+}
+
+.flex.item {
+  margin: 0px 5px 0px 5px;
+}
+
+select {
+  margin: 0px 0px 0px 5px;
+  padding: 2px 0px 2px 0px;;
+}
+
+label {
+  padding: 2px 0px 2px 0px;;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
